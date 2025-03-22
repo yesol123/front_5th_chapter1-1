@@ -7,8 +7,8 @@ const MainPage = () => `
 
       <nav class="bg-white shadow-md p-2 sticky top-14">
         <ul class="flex justify-around">
-          <li><a href="./main.html" class="text-blue-600">홈</a></li>
-          <li><a href="./profile.html" class="text-gray-600">프로필</a></li>
+          <li><a href="/" class="text-blue-600">홈</a></li>
+          <li><a href="/profile" class="text-gray-600">프로필</a></li>
           <li><a href="#" class="text-gray-600">로그아웃</a></li>
         </ul>
       </nav>
@@ -23,7 +23,7 @@ const MainPage = () => `
 
           <div class="bg-white rounded-lg shadow p-4">
             <div class="flex items-center mb-2">
-              <img src="https://via.placeholder.com/40" alt="프로필" class="rounded-full mr-2">
+              <img src="https://placehold.co/40" alt="프로필" class="rounded-full mr-2">
               <div>
                 <p class="font-bold">홍길동</p>
                 <p class="text-sm text-gray-500">5분 전</p>
@@ -39,7 +39,7 @@ const MainPage = () => `
 
           <div class="bg-white rounded-lg shadow p-4">
             <div class="flex items-center mb-2">
-              <img src="https://via.placeholder.com/40" alt="프로필" class="rounded-full mr-2">
+              <img src="https://placehold.co/40" alt="프로필" class="rounded-full mr-2">
               <div>
                 <p class="font-bold">김철수</p>
                 <p class="text-sm text-gray-500">15분 전</p>
@@ -55,7 +55,7 @@ const MainPage = () => `
 
           <div class="bg-white rounded-lg shadow p-4">
             <div class="flex items-center mb-2">
-              <img src="https://via.placeholder.com/40" alt="프로필" class="rounded-full mr-2">
+              <img src="https://placehold.co/40" alt="프로필" class="rounded-full mr-2">
               <div>
                 <p class="font-bold">이영희</p>
                 <p class="text-sm text-gray-500">30분 전</p>
@@ -71,7 +71,7 @@ const MainPage = () => `
 
           <div class="bg-white rounded-lg shadow p-4">
             <div class="flex items-center mb-2">
-              <img src="https://via.placeholder.com/40" alt="프로필" class="rounded-full mr-2">
+              <img src="https://placehold.co/40" alt="프로필" class="rounded-full mr-2">
               <div>
                 <p class="font-bold">박민수</p>
                 <p class="text-sm text-gray-500">1시간 전</p>
@@ -87,7 +87,7 @@ const MainPage = () => `
 
           <div class="bg-white rounded-lg shadow p-4">
             <div class="flex items-center mb-2">
-              <img src="https://via.placeholder.com/40" alt="프로필" class="rounded-full mr-2">
+              <img src="https://placehold.co/40" alt="프로필" class="rounded-full mr-2">
               <div>
                 <p class="font-bold">정수연</p>
                 <p class="text-sm text-gray-500">2시간 전</p>
@@ -119,7 +119,7 @@ const ErrorPage = () => `
       <p class="text-gray-600 mb-8">
         요청하신 페이지가 존재하지 않거나 이동되었을 수 있습니다.
       </p>
-      <a href="./main.html" class="bg-blue-600 text-white px-4 py-2 rounded font-bold">
+      <a href="/" class="bg-blue-600 text-white px-4 py-2 rounded font-bold">
         홈으로 돌아가기
       </a>
     </div>
@@ -160,8 +160,8 @@ const ProfilePage = () => `
 
         <nav class="bg-white shadow-md p-2 sticky top-14">
           <ul class="flex justify-around">
-            <li><a href="./main.html" class="text-gray-600">홈</a></li>
-            <li><a href="#" class="text-blue-600">프로필</a></li>
+            <li><a href="/" class="text-gray-600">홈</a></li>
+            <li><a href="/profile" class="text-blue-600">프로필</a></li>
             <li><a href="#" class="text-gray-600">로그아웃</a></li>
           </ul>
         </nav>
