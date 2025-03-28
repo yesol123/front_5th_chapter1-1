@@ -23,7 +23,9 @@ test.describe("SPA 기본 기능", () => {
     await expect(
       page.getByRole("heading", { name: "항해플러스" }).first(),
     ).toBeVisible();
+
     await page.getByRole("link", { name: "로그인" }).click();
+
     await expect(page.locator("#root")).toMatchAriaSnapshot(`
     - heading "항해플러스" [level=1]
     - textbox "사용자 이름"
