@@ -24,14 +24,14 @@ export const LoginPage = () => `
 
 export function setupLogin() {
   const userId = document.getElementById("id");
-  const loginBtn = document.querySelector("button[type='submit']");
+  const form = document.querySelector("form");
 
-  if (!loginBtn) {
+  if (!form) {
     console.error("로그인 폼을을 찾을 수 없습니다.");
     return;
   }
 
-  loginBtn.addEventListener("submit", (e) => {
+  form.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const user = {
